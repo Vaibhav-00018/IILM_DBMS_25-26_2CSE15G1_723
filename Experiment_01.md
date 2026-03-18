@@ -91,7 +91,7 @@ INSERT INTO DEPARTMENT VALUES (20, 'ACCOUNTING');
 INSERT INTO DEPARTMENT VALUES (30, 'SALES');
 INSERT INTO DEPARTMENT VALUES (40, 'OPERATIONS');
 ```
-![alt text](image-8.png)
+![alt text](image-10.png)
 ---
 
 ### **Q5. *Insert records into EMPLOYEE table***
