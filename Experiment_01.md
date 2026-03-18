@@ -1,16 +1,18 @@
-Aim
+Aim-->
 
 To create EMPLOYEE and DEPARTMENT tables and insert data using MySQL commands.
 
-Theory
-
+Theory-->
 A database is an organized collection of data stored in tables. MySQL is a relational database management system that allows creation and manipulation of such tables. The CREATE TABLE command is used to define table structure, while INSERT INTO is used to add records. Primary keys uniquely identify each record, and foreign keys establish relationships between tables.
 
-Commands / Procedure
+
+Commands / Procedure-->
+
 
 Q1: Create a database named 2CSE15G1_0723
 CREATE DATABASE 2CSE15G1_0723;
 USE 2CSE15G1_0723;
+![alt text](image.png)
 
 
 Q2: Create DEPARTMENT table with specified constraints
@@ -18,7 +20,7 @@ CREATE TABLE DEPARTMENT (
     DEPTNO INT(2) PRIMARY KEY,
     DNAME VARCHAR(15) NOT NULL
 );
-
+![alt text](image-1.png)
 
 Q3: Create EMPLOYEE table with specified constraints
 CREATE TABLE EMPLOYEE (
@@ -32,13 +34,14 @@ CREATE TABLE EMPLOYEE (
     DEPTNO INT(2),
     FOREIGN KEY (DEPTNO) REFERENCES DEPARTMENT(DEPTNO)
 );
-
+![alt text](image-2.png)
 
 Q4: Insert records into DEPARTMENT table
 INSERT INTO DEPARTMENT VALUES (10, 'RESEARCH');
 INSERT INTO DEPARTMENT VALUES (20, 'ACCOUNTING');
 INSERT INTO DEPARTMENT VALUES (30, 'SALES');
 INSERT INTO DEPARTMENT VALUES (40, 'OPERATIONS');
+![alt text](image-3.png)
 
 
 Q5: Insert records into EMPLOYEE table
@@ -69,3 +72,4 @@ INSERT INTO EMPLOYEE VALUES (7900, 'JAMES', 'CLERK', 7698, '1981-12-03', 950, NU
 INSERT INTO EMPLOYEE VALUES (7902, 'FORD', 'ANALYST', 7566, '1981-12-03', 3000, NULL, 20);
 
 INSERT INTO EMPLOYEE VALUES (7934, 'MILLER', 'CLERK', 7782, '1982-01-23', 1300, NULL, 10);
+![alt text](image-4.png)
