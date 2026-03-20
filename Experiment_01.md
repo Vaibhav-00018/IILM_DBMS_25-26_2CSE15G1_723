@@ -62,7 +62,7 @@ CREATE TABLE DEPARTMENT (
     DNAME VARCHAR(15) NOT NULL
 );
 ```
-![alt text](image-6.png)
+![Create Database](images/image-6.png)
 ---
 
 ### **Q3. *Create EMPLOYEE table with specified constraints***
@@ -80,7 +80,7 @@ CREATE TABLE EMPLOYEE (
     FOREIGN KEY (DEPTNO) REFERENCES DEPARTMENT(DEPTNO)
 );
 ```
-![alt text](image-7.png)
+![Create Database](images/image-7.png)
 ---
 
 ### **Q4. *Insert records into DEPARTMENT table***
@@ -91,7 +91,7 @@ INSERT INTO DEPARTMENT VALUES (20, 'ACCOUNTING');
 INSERT INTO DEPARTMENT VALUES (30, 'SALES');
 INSERT INTO DEPARTMENT VALUES (40, 'OPERATIONS');
 ```
-![alt text](image-10.png)
+![Create Database](images/image-10.png)
 ---
 
 ### **Q5. *Insert records into EMPLOYEE table***
@@ -112,7 +112,7 @@ INSERT INTO EMPLOYEE VALUES (7900, 'JAMES', 'CLERK', 7698, '1981-12-03', 950, NU
 INSERT INTO EMPLOYEE VALUES (7902, 'FORD', 'ANALYST', 7566, '1981-12-03', 3000, NULL, 20);
 INSERT INTO EMPLOYEE VALUES (7934, 'MILLER', 'CLERK', 7782, '1982-01-23', 1300, NULL, 10);
 ```
-![alt text](image-9.png)
+![Create Database](images/image-9.png)
 ---
 
 ## ***Conclusion***
