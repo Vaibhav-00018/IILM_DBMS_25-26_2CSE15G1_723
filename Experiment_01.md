@@ -51,7 +51,7 @@ A **database** is an organized collection of data stored in tables. **MySQL** is
 CREATE DATABASE 2CSE15G1_0723;
 USE 2CSE15G1_0723;
 ```
-![alt text](image-5.png)
+![Create Database](images/image-5.png)
 ---
 
 ### **Q2. *Create DEPARTMENT table with specified constraints***
