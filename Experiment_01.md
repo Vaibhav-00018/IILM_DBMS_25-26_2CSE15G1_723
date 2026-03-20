@@ -91,7 +91,7 @@ INSERT INTO DEPARTMENT VALUES (20, 'ACCOUNTING');
 INSERT INTO DEPARTMENT VALUES (30, 'SALES');
 INSERT INTO DEPARTMENT VALUES (40, 'OPERATIONS');
 ```
-![Create Database](images/image-10.png)
+<img src="images/image-10.png" alt="Create Database" style="border: 2px solid black; padding: 5px;">
 
 ---
 
