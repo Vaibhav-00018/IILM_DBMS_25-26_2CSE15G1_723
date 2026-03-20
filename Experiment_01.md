@@ -92,6 +92,7 @@ INSERT INTO DEPARTMENT VALUES (30, 'SALES');
 INSERT INTO DEPARTMENT VALUES (40, 'OPERATIONS');
 ```
 ![Create Database](images/image-10.png)
+
 ---
 
 ### **Q5. *Insert records into EMPLOYEE table***
@@ -112,7 +113,7 @@ INSERT INTO EMPLOYEE VALUES (7900, 'JAMES', 'CLERK', 7698, '1981-12-03', 950, NU
 INSERT INTO EMPLOYEE VALUES (7902, 'FORD', 'ANALYST', 7566, '1981-12-03', 3000, NULL, 20);
 INSERT INTO EMPLOYEE VALUES (7934, 'MILLER', 'CLERK', 7782, '1982-01-23', 1300, NULL, 10);
 ```
-![Create Database](images/image-9.png)
+![Alt](images/image-9.png)
 ---
 
 ## ***Conclusion***
